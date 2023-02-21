@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+.game-board {
+    width: 80%;
+    height: 500px;
+    border: 1px solid black;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    margin-top: 20vh;
+}
+
+.silver{
+    width: 120px;
+    bottom: 90px;
+}
+
+.voltar{
+    width: 80px;
+}
+
+.game-board img{
+    position: absolute;
+}
+
+.restart{
+    position: absolute;
+    margin-top: -160px;
+    width: 10px;
+    left: 260px;
+
+    
+}
+.cenario{
+    position: absolute;
+    width: 72%;
+}
+
+.cenario2{
+    position: absolute;
+    width: 72%;
+    margin-left: 113.2vh;
+}
+
+.moeda{
+    position: absolute;
+    bottom: 90px;
+    width: 68px;
+    right: -2000px;
+    animation: moeda-animation 1.5s infinite linear ;
+    animation-delay: 2000ms; 
+}
+
+.sonic{
+    position: absolute;
+    width: 290px ;
+    bottom: 70px;
+    animation: aparecer 1.6s;
+}
+.jump {
+    animation: jump 500ms ease-out;
+}
+
+@keyframes moeda-animation {
+    from{
+        right: -3000px;
+    }
+
+    to{
+        right: 929px ;
+    }
+}
+
+@keyframes aparecer{
+0%{
+    width: 0px;
+}
+
+89%{
+    width: 0px;
+}
+
+90%{
+    width:120px;
+}
+}

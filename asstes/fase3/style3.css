@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+.game-board {
+    width: 80%;
+    height: 500px;
+    border: 1px solid black;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    margin-top: 20vh;
+}
+.voltar{
+    width: 80px;
+}
+
+.game-board img{
+    position: absolute;
+}
+
+.restart{
+    position: absolute;
+    top: 40vh;
+    width: 10px;
+    margin-left: 30vh;
+}
+.cenario{
+    position: absolute;
+    width: 74%;
+}
+.cenario2{
+    position: absolute;
+    width: 72%;
+    margin-left: 113.2vh;
+}
+
+.motog{
+    position: absolute;
+    bottom: 65px;
+    width: 12rem;
+    animation: motog-animation 1s infinite linear; 
+}
+
+.sonic{
+    position: absolute;
+    width: 140px ;
+    bottom: 90px;
+}
+.jump {
+    animation: jump 500ms ease-out;
+}
+
+.moeda{
+    position: absolute;
+    width: 0px;
+    left: 500px;
+    bottom: 103px;
+    animation: moedas 1s infinite;
+}
+
+.mascote {
+    width: 5%;
+    margin-top: 14rem;
+    animation: mascAnimation 2.5s infinite linear;
+}
+
+@keyframes mascAnimation {
+    0%{
+        margin-top: 14rem;
+    }
+
+    50%{
+        margin-top: 14.5rem;
+    }
+
+    100%{
+        margin-top: 14rem;
+    }
+}
+
+@keyframes moedas{
+    0%{
+   width: 0px;
+        }
+    29%{
+    width: 0px;
+    }
+
+    30%{
+    width: 68px;
+    }
+
+    40%{
+    width: 68px;
+    }
+
+    53%{
+        width:0px;
+    }
+
+    100%{
+        width: 0px;
+    }
+}
+
+@keyframes game-over {
+    0%{
+        bottom: 80px;
+    }
+
+    50%{
+        bottom: 300px;
+    }
+
+    100%{
+        bottom: -100px;
+    }
+}
+
+@keyframes motog-animation{
+    from{
+        right: -80px;
+    }
+
+    to{
+        right: 100%;
+    }
+}
+
+@keyframes jump {
+
+    0% {
+        bottom: 140px;
+    }
+        
+    35% {
+        bottom: 260px;
+    }
+
+    50% {
+        buttom: 260px;
+     }
+
+        65% {
+        bottom: 260px;
+    }
+
+     100% {
+        bottom: 140px;
+    }
+        
+    }
+    

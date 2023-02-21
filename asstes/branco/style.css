@@ -1,0 +1,13 @@
+body {
+    animation: claro 2.9s;
+}
+
+@keyframes claro{
+    0%{
+        background-color: white;
+    }
+
+    100%{
+        background-color: rgb(17, 17, 17);
+    }
+}

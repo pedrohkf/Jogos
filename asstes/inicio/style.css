@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.game-board {
+    width: 80%;
+    height: 500px;
+    border: 1px solid black;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    margin-top: 20vh;
+}
+
+body {
+    background-color: black;
+}
+
+
+.cenario{
+    position: absolute;
+    width: 72%;
+}
+
+.cenario2{
+    position: absolute;
+    width: 72%;
+    margin-left: 113.2vh;
+}
+
+.sonic {
+    position: absolute;
+    width: 114px;
+    bottom: 90px;
+}
+
+.start{
+    position: absolute;
+    width: 30%;
+    margin-top: 150px;
+    left: 55vh;
+}
