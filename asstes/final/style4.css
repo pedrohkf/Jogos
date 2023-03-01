@@ -18,24 +18,21 @@ body {
     margin-top: 20vh;
 }
 
-.game-board img{
+.game-board img {
     position: absolute;
 }
 
-.restart{
+.restart {
     position: absolute;
     top: 40vh;
     width: 10px;
     margin-left: 30vh;
 }
-.cenario{
+
+.cenario {
     position: absolute;
-    width: 74%;
-}
-.cenario2{
-    position: absolute;
-    width: 72%;
-    margin-left: 113.2vh;
+    width: 130%;
+    margin-top: -20rem;
 }
 
 .win {
@@ -56,20 +53,167 @@ body {
     margin-left: 10rem;
 }
 
-.voltar{
+.voltar {
     width: 80px;
 }
 
 @keyframes animation {
-    0%{
+    0% {
         margin-top: 10rem;
     }
 
-    50%{
+    50% {
         margin-top: 11rem;
     }
 
-    100%{
+    100% {
         margin-top: 10rem;
+    }
+}
+
+@media screen and (max-width: 1810px) {
+    .sonic {
+        margin-top: 13rem;
+    }
+}
+
+@media screen and (max-width: 1720px) {
+    .sonic {
+        margin-top: 10rem;
+    }
+
+    .final {
+        width: 8rem;
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    .sonic {
+        width: 8rem;
+    }
+}
+
+@media screen and (max-width: 1450px) {
+    .sonic {
+        width: 6rem;
+        margin-top: 8rem;
+    }
+
+    @keyframes animation {
+        0% {
+            margin-top: 5rem;
+        }
+
+        50% {
+            margin-top: 6rem;
+        }
+
+        100% {
+            margin-top: 5rem;
+        }
+    }
+}
+
+@media screen and (max-width: 1370px) {
+    .sonic {
+        margin-top: 10rem;
+    }
+
+    .cenario {
+        margin-top: -16rem;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .cenario {
+        margin-top: -13rem;
+    }
+}
+
+@media screen and (max-width: 1025px) {
+    .sonic {
+        margin-top: 5rem;
+    }
+
+    .final {
+        width: 7rem;
+    }
+
+    @keyframes animation {
+        0% {
+            margin-top: 3rem;
+        }
+
+        50% {
+            margin-top: 4rem;
+        }
+
+        100% {
+            margin-top: 3rem;
+        }
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .cenario {
+        margin-top: -10rem;
+    }
+
+    .sonic {
+        width: 6rem;
+    }
+
+    .voltar {
+        width: 3rem;
+    }
+}
+
+@media screen and (max-width: 851px) {
+    .sonic {
+        width: 5rem;
+    }
+
+    @keyframes animation {
+        0% {
+            margin-top: 2rem;
+        }
+
+        50% {
+            margin-top: 3rem;
+        }
+
+        100% {
+            margin-top: 2rem;
+        }
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .cenario {
+        margin-top: -8rem;
+    }
+
+    .sonic {
+        width: 3rem;
+        margin-top: 4.5rem;
+    }
+
+    .final {
+        width: 5rem;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .cenario {
+        margin-top: -8rem;
+    }
+
+    .sonic {
+        margin-top: 5.5rem;
+        width: 4rem;
+    }
+
+    .final {
+        width: 5rem;
     }
 }

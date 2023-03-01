@@ -18,13 +18,18 @@ body {
     background-color: black;
 }
 
-
-.cenario{
+.game-board img {
     position: absolute;
-    width: 72%;
 }
 
-.cenario2{
+
+.cenario {
+    position: absolute;
+    width: 130%;
+    margin-top: -20rem;
+}
+
+.cenario2 {
     position: absolute;
     width: 72%;
     margin-left: 113.2vh;
@@ -36,9 +41,284 @@ body {
     bottom: 90px;
 }
 
-.start{
-    position: absolute;
-    width: 30%;
-    margin-top: 150px;
-    left: 55vh;
+.restart {
+    width: 30rem;
+    margin-left: 35rem;
+    margin-top: 7rem;
+}
+
+@media screen and (max-width: 1810px) {
+    body {
+        max-width: 1810px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .cenario {
+        margin-top: -20rem;
+    }
+
+    .sonic {
+        width: 100px;
+        bottom: 140px;
+    }
+
+    .restart {
+        margin-left: 28rem;
+    }
+}
+
+@media screen and (max-width: 1720px) {
+    body {
+        max-width: 1720px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .cenario {
+        margin-top: -17.5rem;
+    }
+
+    .sonic {
+        width: 100px;
+        bottom: 135px;
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    body {
+        max-width: 1600px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .cenario {
+        margin-top: -13rem;
+    }
+
+    .sonic {
+        width: 100px;
+        bottom: 155px;
+    }
+
+    .restart {
+        margin-left: 26rem;
+        width: 25rem;
+        margin-top: 10rem;
+    }
+}
+
+@media screen and (max-width: 1450px) {
+    body {
+        max-width: 1400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .cenario {
+        margin-top: -10rem;
+    }
+
+    .sonic {
+        width: 90px;
+        bottom: 130px;
+    }
+
+    .restart {
+        margin-left: 23rem;
+    }
+}
+
+@media screen and (max-width: 1350px) {
+    body {
+        max-width: 1400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .cenario {
+        margin-top: -10rem;
+    }
+
+    .sonic {
+        width: 90px;
+        bottom: 176px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    body {
+        max-width: 1400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .cenario {
+        margin-top: -10rem;
+    }
+
+    .sonic {
+        width: 90px;
+        bottom: 200px;
+    }
+
+    .restart {
+        width: 20rem;
+        margin-left: 20rem;
+    }
+}
+
+@media screen and (max-width: 1025px) {
+    body {
+        max-width: 1400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .cenario {
+        margin-top: -10rem;
+    }
+
+    .sonic {
+        width: 90px;
+        bottom: 265px;
+    }
+
+    .restart {
+        width: 18rem;
+        margin-left: 17rem;
+        margin-top: 7rem;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    body {
+        max-width: 950px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .cenario {
+        margin-top: -9rem;
+    }
+
+    .sonic {
+        width: 55px;
+        bottom: 280px;
+    }
+
+    .restart {
+        width: 15rem;
+        margin-left: 17rem;
+    }
+}
+
+@media screen and (max-width: 851px) {
+    body {
+        max-width: 850px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .cenario {
+        margin-top: -8rem;
+    }
+
+    .sonic {
+        width: 55px;
+        bottom: 306px;
+    }
+
+    .restart {
+        width: 13rem;
+        margin-left: 15rem;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    body {
+        max-width: 680px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cenario {
+        margin-top: -6.5rem;
+    }
+
+    .sonic {
+        width: 55px;
+        bottom: 347px;
+    }
+
+    .restart {
+        width: 10rem;
+        margin-left: 12rem;
+        margin-top: 4rem;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    body {
+        max-width: 750px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cenario {
+        margin-top: -7.9rem;
+    }
+
+    .sonic {
+        width: 55px;
+        bottom: 347px;
+    }
+
+    .restart {
+        width: 13rem;
+        margin-left: 12rem;
+        margin-top: 4rem;
+    }
+}
+
+@media screen and (max-width: 667px) {
+    body {
+        max-width: 750px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cenario {
+        margin-top: -6rem;
+    }
+
+    .sonic {
+        width: 50px;
+        bottom: 344px;
+    }
+
+    .restart {
+        margin-left: 11rem;
+    }
 }

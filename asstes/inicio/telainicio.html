@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,22 +9,23 @@
     <link rel="shortcut icon" href="/icon.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
     <div class="game-board">
         <img src="/asstes/cenario/cenario.png" class="cenario">
-        <img src="/asstes/cenario/cenario.png" class="cenario2">
-       <img src="/asstes/personagens/sonic esperando joia.gif" class="sonic">
-       <a href="/asstes/fase1/inner.html"><img src="/asstes/imgs/start.png" class="start"></a>
-       <audio src="intro.mp3" class="audio" loop="loop"></audio>
+        <img src="/asstes/personagens/sonic esperando joia.gif" class="sonic">
+        <a href="/asstes/fase1/inner.html"><img src="/asstes/imgs/start.png" class="restart"></a>
+        <audio src="intro.mp3" class="audio" loop="loop"></audio>
 
 
-       <script type="text/javascript">
-            setTimeout(function(){
+        <script type="text/javascript">
+            setTimeout(function () {
                 document.querySelector('.audio').play();
                 console.log('start song')
             }, 100)
-       </script>
+        </script>
     </div>
 </body>
+
 </html>
